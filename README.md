@@ -1,3 +1,2 @@
-# NetMarket_PMS_GmbH
-
-I made a website with html, css and animations for my boss in order to help and participate in their project to build a new website for the company.
+# NetMarket-PMS-GmbH
+I made a Website in (Front-end Part) with HTML, CSS and Animations for my Boss in order to help and participate in their Project to build a new Website for the Company in October 2021 during the IT-Apprenticeship in Germany.
