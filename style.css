@@ -560,9 +560,9 @@ h3 {
 
 .imp-left img {
     width: 100%;
-    margin: 10px 0 50px 0;
-    border-radius: 20px;
     float: right;
+    border-radius: 20px;
+    margin: 10px 0 50px 0;
 }
 
 .imp-left h2 {
@@ -572,8 +572,8 @@ h3 {
 }
 
 .imp-left p {
-    color: #999;
     padding: 0;
+    color: #999;
 }
 
 .imp-right {
@@ -581,25 +581,24 @@ h3 {
 }
 
 .imp-right h3 {
-    background: #a4dad2;
-    border-radius: 10px;
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
+    border-radius: 10px;
     margin-bottom: 20px;
+    background: #a4dad2;
 }
 
 .imp-right div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #555;
     padding: 8px;
+    display: flex;
+    color: #555;
+    align-items: center;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 /*---------- Kontakt Seite ----------*/
-
 .location {
     width: 80%;
     margin: auto;
@@ -628,32 +627,32 @@ h3 {
 }
 
 .contact-col div fa {
+    margin: 10px;
     font-size: 28px;
     color: #f44336;
-    margin: 10px;
     margin-right: 30px;
 }
 
 .contact-col div p {
-    font-size: 18px;
     padding: 0;
+    font-size: 18px;
 }
 
 .contact-col div h5 {
-    font-size: 18px;
-    margin-bottom: 20px;
     color: #555;
+    font-size: 18px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .contact-col input,
 .contact-col textarea {
     width: 100%;
     padding: 15px;
+    outline: none;
     margin-bottom: 17px;
-    outline: snone;
-    border: 1px solid #ccc;
     box-sizing: border-box;
+    border: 1px solid #ccc;
 }
 
 .meinung2 {
@@ -664,15 +663,15 @@ h3 {
 }
 
 .meinung-col2 {
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #c9deff;
-    padding: 25px;
-    padding: pointer;
-    display: flex;
     margin: 20px;
+    padding: 25px;
+    display: flex;
+    flex-basis: 44%;
+    text-align: left;
+    padding: pointer;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: #c9deff;
 }
 
 .meinung-col2 img {
