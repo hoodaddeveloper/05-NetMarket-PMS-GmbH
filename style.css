@@ -297,13 +297,13 @@ h3 {
 }
 
 .layer {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     transition: 0.5s;
+    position: absolute;
+    background: transparent;
 }
 
 .layer:hover {
@@ -311,25 +311,24 @@ h3 {
 }
 
 .layer h3 {
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 40px;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
     opacity: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
     transition: 0.5s;
+    position: absolute;
+    transform: translateX(-50%);
 }
 
 .layer:hover h3 {
-    bottom: 49%;
     opacity: 1;
+    bottom: 49%;
 }
 
 /*---------- Einrichtungen ----------*/
-
 .einrichtung {
     width: 95%;
     margin: auto;
@@ -345,9 +344,9 @@ h3 {
 
 .einrichtung-col {
     flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
     text-align: left;
+    margin-bottom: 5%;
+    border-radius: 10px;
 }
 
 .einrichtung-col img {
@@ -367,7 +366,6 @@ h3 {
 }
 
 /*---------- Kunden und Meinungen ----------*/
-
 .meinung {
     width: 80%;
     margin: auto;
@@ -376,14 +374,14 @@ h3 {
 }
 
 .meinung-col {
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #c9deff;
     padding: 25px;
-    padding: pointer;
     display: flex;
+    flex-basis: 44%;
+    padding: pointer;
+    text-align: left;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: #c9deff;
 }
 
 .meinung-col img {
@@ -410,22 +408,21 @@ h3 {
 }
 
 /*---------- Call To Action ----------*/
-
 .cta {
-    margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
     padding: 100px 0;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner.jpg);
 }
 
 .cta h1 {
+    padding: 0;
     color: #fff;
     margin-bottom: 40px;
-    padding: 0;
 }
 
 @media(max-width:700px) {
@@ -435,22 +432,21 @@ h3 {
 }
 
 /*---------- Footer ----------*/
-
 .footer {
     width: 100%;
-    text-align: center;
     padding: 30px 0;
+    text-align: center;
 }
 
 .footer h4 {
-    margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .icons {
-    color: #20b2aa;
     cursor: pointer;
+    color: #20b2aa;
     padding: 18px 18px;
 }
 
@@ -467,15 +463,14 @@ h3 {
 }
 
 /*---------- Über uns Seite ----------*/
-
 .sub-header {
-    height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(images/about.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
+    height: 60vh;
     color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url(images/about.jpg);
 }
 
 .sub-header h1 {
@@ -512,9 +507,9 @@ h3 {
 }
 
 .red-btn {
-    border: 1px solid #20b2aa;
-    background: transparent;
     color: #20b2aa;
+    background: transparent;
+    border: 1px solid #20b2aa;
 }
 
 .red-btn:hover {
@@ -522,9 +517,9 @@ h3 {
 }
 
 .comment-box {
-    border: 1px solid #ccc;
     margin-top: 100px;
     padding: 10px 20px;
+    border: 1px solid #ccc;
 }
 
 .comment-box h3 {
@@ -534,12 +529,12 @@ h3 {
 .comment-form input,
 .comment-form textarea {
     width: 100%;
-    padding: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
     border: none;
+    padding: 10px;
     outline: none;
+    margin: 15px 0;
     background: #d8f8f4;
+    box-sizing: border-box;
 }
 
 .comment-form buttom {
@@ -553,7 +548,6 @@ h3 {
 }
 
 /*---------- Impressum Seite ----------*/
-
 .impressum {
     width: 80%;
     margin: auto;
