@@ -5,20 +5,20 @@
 }
 
 .header {
-    min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 80, 0.1), rgba(0, 0, 80, 0.1)), url(animation/background.png);
-    background-position: center;
-    background-size: cover;
+    min-height: 100vh;
     position: relative;
+    background-size: cover;
+    background-position: center;
     border-radius: 0px 0px 50px 50px;
+    background-image: linear-gradient(rgba(0, 0, 80, 0.1), rgba(0, 0, 80, 0.1)), url(animation/background.png);
 }
 
 nav {
     display: flex;
     padding: 1% 5%;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 nav img {
@@ -26,32 +26,32 @@ nav img {
 }
 
 .nav-links {
-    margin-top: 100px;
     flex: 1;
+    margin-top: 100px;
     text-align: right;
 }
 
 .nav-links ul li {
     list-style: none;
-    display: inline-block;
     padding: 8px 12px;
     position: relative;
+    display: inline-block;
 }
 
 .nav-links ul li a {
     color: #fff;
-    text-decoration: none;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .nav-links ul li::after {
-    content: '';
     width: 0%;
+    content: '';
     height: 2px;
-    background: #fff;
-    display: block;
     margin: auto;
+    display: block;
     transition: 0.5s;
+    background: #fff;
 }
 
 .nav-links ul li:hover::after {
@@ -63,13 +63,13 @@ nav img {
 }
 
 .text-box {
+    top: 50%;
+    left: 50%;
     width: 60%;
     color: #fff;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 
 @-webkit-keyframes a1 {
@@ -84,34 +84,34 @@ nav img {
 .text-box h1 {
     font-size: 62px;
     -webkit-animation: a1 2.5s;
-    -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .text-box p {
-    font-size: 62px;
-    margin: 10px 0 40px;
-    font-size: 14px;
     color: #fff;
+    font-size: 62px;
+    font-size: 14px;
+    margin: 10px 0 40px;
 }
 
 .hero-btn {
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 12px 34px;
+    position: relative;
+    border-radius: 20px;
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
     background: transparent;
-    position: relative;
-    cursor: pointer;
-    border-radius: 20px;
+    border: 1px solid #fff;
 }
 
 .hero-btn:hover {
-    border: 1px solid #20b2aa;
-    background: #20b2aa;
     transition: 1s;
+    background: #20b2aa;
+    border: 1px solid #20b2aa;
 }
 
 nav .fa {
@@ -128,20 +128,20 @@ nav .fa {
         display: block;
     }
     .nav-links {
-        position: fixed;
-        background: #20b2aa;
-        height: 100vh;
-        width: 200px;
         top: 0;
-        right: -200px;
-        text-align: left;
         z-index: 2;
+        width: 200px;
+        height: 100vh;
+        right: -200px;
         transition: 1s;
+        position: fixed;
+        text-align: left;
+        background: #20b2aa;
     }
     nav .fa {
-        display: block;
         color: #fff;
         margin: 10px;
+        display: block;
         font-size: 22px;
         cursor: pointer;
     }
@@ -151,24 +151,24 @@ nav .fa {
 }
 
 .bubbles img {
+    opacity: 0;
     width: 50px;
     animation: bubble 7s linear infinite;
-    opacity: 0;
 }
 
 .bubbles {
     width: 100%;
     display: flex;
+    bottom: -70px;
+    position: absolute;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    bottom: -70px;
 }
 
 @keyframes bubble {
     0% {
-        transform: translateY(0);
         opacity: 0;
+        transform: translateY(0);
     }
     50% {
         opacity: 1;
@@ -177,14 +177,14 @@ nav .fa {
         opacity: 1;
     }
     100% {
-        transform: translateY(-80vh);
         opacity: 0;
+        transform: translateY(-80vh);
     }
 }
 
 .bubbles img:nth-child(1) {
-    animation-delay: 2s;
     width: 45px;
+    animation-delay: 2s;
 }
 
 .bubbles img:nth-child(2) {
@@ -192,8 +192,8 @@ nav .fa {
 }
 
 .bubbles img:nth-child(3) {
-    animation-delay: 3s;
     width: 30px;
+    animation-delay: 3s;
 }
 
 .bubbles img:nth-child(4) {
@@ -205,17 +205,16 @@ nav .fa {
 }
 
 .bubbles img:nth-child(6) {
-    animation-delay: 6s;
     width: 25px;
+    animation-delay: 6s;
 }
 
 .bubbles img:nth-child(7) {
-    animation-delay: 7s;
     width: 55px;
+    animation-delay: 7s;
 }
 
 /*---------- Leistungen ----------*/
-
 .sub-header {
     border-radius: 0px 0px 50px 50px;
 }
@@ -234,32 +233,32 @@ h1 {
 
 p {
     color: #777;
+    padding: 10px;
     font-size: 20px;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
 }
 
 .row {
-    margin-top: 3%;
     display: flex;
+    margin-top: 3%;
     justify-content: space-between;
 }
 
 .leistung-col {
     flex-basis: 15%;
-    background: #c9deff;
-    border-radius: 10px;
+    transition: 0.5s;
     margin-bottom: 5%;
     padding: 20px 12px;
+    border-radius: 10px;
+    background: #c9deff;
     box-sizing: border-box;
-    transition: 0.5s;
 }
 
 h3 {
-    text-align: center;
-    font-weight: 600;
     margin: 10px 0;
+    font-weight: 600;
+    text-align: center;
 }
 
 .leistung-col:hover {
@@ -273,20 +272,19 @@ h3 {
 }
 
 /*---------- Standorte ----------*/
-
 .standort {
     width: 95%;
     margin: auto;
-    text-align: center;
     padding-top: 50px;
+    text-align: center;
 }
 
 .standort-col {
     flex-basis: 32%;
+    overflow: hidden;
+    position: relative;
     border-radius: 10px;
     margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
 }
 
 .standort-col img {
