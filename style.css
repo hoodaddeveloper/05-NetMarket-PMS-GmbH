@@ -76,6 +76,7 @@ nav img {
     50% {
         text-shadow: 0px 0px 1px #fff, 0px 0px 1px #a4dad2;
     }
+
     50% {
         text-shadow: 0px 0px 12px #fff, 0px 0px 12px #a4dad2;
     }
@@ -124,9 +125,11 @@ nav .fa {
     .text-box h1 {
         font-size: 20px;
     }
+
     .nav-links ul li {
         display: block;
     }
+
     .nav-links {
         top: 0;
         z-index: 2;
@@ -138,6 +141,7 @@ nav .fa {
         text-align: left;
         background: #20b2aa;
     }
+
     nav .fa {
         color: #fff;
         margin: 10px;
@@ -145,6 +149,7 @@ nav .fa {
         font-size: 22px;
         cursor: pointer;
     }
+
     .nav-links ul {
         padding: 30px;
     }
@@ -170,12 +175,15 @@ nav .fa {
         opacity: 0;
         transform: translateY(0);
     }
+
     50% {
         opacity: 1;
     }
+
     70% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         transform: translateY(-80vh);
